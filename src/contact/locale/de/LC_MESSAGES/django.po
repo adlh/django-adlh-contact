@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-08 10:18+0000\n"
+"PO-Revision-Date: 2012-11-08 11:20\n"
+"Last-Translator:   <adlhuerta@metamorfosys.de>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Translated-Using: django-rosetta 0.6.5\n"
+
+#: forms.py:7
+msgid "Name"
+msgstr ""
+
+#: forms.py:8
+msgid "Nachricht"
+msgstr ""
+
+#: forms.py:9 views.py:27
+msgid "Telefon"
+msgstr ""
+
+#: forms.py:10
+msgid "Email"
+msgstr ""
+
+#: forms.py:11
+msgid "Eine Kopie an meine Email-Adresse verschicken"
+msgstr ""
+
+#: views.py:29
+#, python-format
+msgid "Am %(date)s %(name)s schrieb:"
+msgstr ""
+
+#: views.py:36
+msgid "Kontakt"
+msgstr ""
+
+#: views.py:40
+msgid "Kopie Ihrer Nachricht:"
+msgstr ""
+
+#: views.py:44
+msgid "Falsches Header. Bitte eine gültige Emailadresse angeben."
+msgstr ""
+
+#: templates/contact/form.html:15
+msgid ""
+"Für Fragen oder Anregungen kannst du uns gerne eine Nachricht schreiben:"
+msgstr ""
+
+#: templates/contact/form.html:18
+msgid "There are some errors on the form. Please correct these and try again."
+msgstr ""
+"Es sind Fehler aufgetretten beim Absenden des Formulars, bitte korrigieren "
+"Sie diese und versuchen Sie es erneut."
+
+#: templates/contact/form.html:22
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: templates/contact/form.html:23
+msgid "Send"
+msgstr "Senden"
+
+#: templates/contact/thanks.html:7
+msgid "Danke für Deine Nachricht. Wir werden uns bald zurückmelden!"
+msgstr ""

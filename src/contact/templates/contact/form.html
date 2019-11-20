@@ -1,0 +1,24 @@
+{% load i18n %}
+{% load bootstrap3 %}
+
+{% if error %}
+<div class="alert alert-error">{{ error|linebreaks }}</div>
+{% endif %}
+
+{% if msg %}
+<div class="alert alert-success">{{ msg|linebreaks }}</div>
+{% endif %}
+
+{% if form %}
+<h2>{{ _("Für Fragen oder Anregungen kannst du uns gerne eine Nachricht schreiben:") }}</h2>
+<form class="well form-horizontal" action="{% url 'contact' %}" method="post">{% csrf_token %}
+    {% if form.errors %}
+    <div class="alert alert-error">{% trans "There are some errors on the form. Please correct these and try again." %}</div>
+    {% endif %}
+    {% bootstrap_form form %}
+    <div class="form-actions">
+         <input type="reset" class="btn" value="{% trans "Reset" %}" />
+         <input type="submit" class="btn btn-primary" value="{% trans "Send" %}" />
+    </div>
+</form>
+{% endif %}
