@@ -22,7 +22,7 @@ INSTALLED_APPS = (
 
 3) Include the urls:
 ```python
-path(r'contakt/', include('contact.urls')),
+path(r'contact/', include('contact.urls')),
 ```
 
 4) Run the migrations with `python manage.py migrate`.
