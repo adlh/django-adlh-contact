@@ -1,7 +1,6 @@
 # coding=UTF-8
 
 from django.utils.translation import ugettext_lazy as _
-from captcha.fields import CaptchaField
 from django import forms
 
 class ContactForm(forms.Form):
@@ -10,5 +9,4 @@ class ContactForm(forms.Form):
     tel = forms.CharField(label=_(u'Telefon'), max_length=20, required=False)
     email = forms.EmailField(label=_(u'Email'))
     cc_myself = forms.BooleanField(label=_(u'Eine Kopie an meine Email-Adresse verschicken'), required=False)
-    captcha = CaptchaField()
 

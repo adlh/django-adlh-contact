@@ -2,7 +2,7 @@
 django-adlh-contact
 ======================
 
-Just a reusable contact form for bootstrap3 with a captcha field and support
+Just a reusable contact form (default uses bootstrap3) and support
 translations for languages EN and DE.
 
 Quick start

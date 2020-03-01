@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-adlh-contact',
-    version='1.0',
+    version='1.1',
     description='A Django app with a reusable contact form',
     url='https://github.com/adlh/django-adlh-contact',
     license='MIT',
@@ -27,7 +27,7 @@ setup(
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
     python_requires='>=3.5.*, <4',
-    install_requires=['Django', 'django-bootstrap3', 'django-simple-captcha'],
+    install_requires=['Django', 'django-bootstrap3'],
     project_urls={
         'Bug Reports': 'https://github.com/adlh/django-adlh-contact',
         'Source': 'https://github.com/adlh/django-adlh-contact',
