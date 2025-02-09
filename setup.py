@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-adlh-contact',
-    version='1.1',
+    version='1.2',
     description='A Django app with a reusable contact form',
     url='https://github.com/adlh/django-adlh-contact',
     license='MIT',
@@ -12,7 +12,7 @@ setup(
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Framework :: Django',
-        'Framework :: Django :: 2.2',
+        'Framework :: Django :: 5',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
@@ -23,6 +23,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.11',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],

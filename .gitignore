@@ -1,6 +1,5 @@
 *.swp
 *.pyc
 *.pyo
-dist/
 *.egg-info
 .idea
